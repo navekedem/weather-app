@@ -1,0 +1,7 @@
+.favourite-card{padding: 2rem;}
+.favourite-card-title{font-size: 1.5rem;margin-bottom: 2rem;}
+.favourite-card p{margin-bottom:1rem; font-size: 1.2rem;}
+.favourite-card:hover{cursor:pointer;}
+@media (max-width:640px) {
+    .favourite-card{margin: auto;max-width: 100%;min-width: 19rem;}
+}

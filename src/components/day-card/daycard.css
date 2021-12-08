@@ -1,0 +1,13 @@
+.day-card{flex: 0 0 18%;padding:2rem 0.5rem;}
+.day-card:hover{transform: translateY(10px) !important;}
+.day-card-title{margin-bottom: 5rem;font-weight: bold;font-size: 1.5rem;}
+
+/* Tablet Small */
+@media (max-width:1000px) {
+    .day-card{flex: 0 0 45%;margin-bottom: 1rem;}
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .day-card{flex: 0 0 95%;}
+}

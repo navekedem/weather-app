@@ -1,0 +1,8 @@
+.app-header{padding: 1rem;}
+.app-header h1{color:#fff; font-size:1.5rem;font-weight:bold;}
+
+/* Small Mobile */
+@media (max-width: 520px) {
+    .app-header{flex-wrap: wrap;}
+    .app-header h1{margin-bottom:1rem;}
+}
