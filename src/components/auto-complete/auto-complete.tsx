@@ -27,7 +27,7 @@ export const AutoCompleteHandler = (props: ApiProps) => {
         } else {
             setError("");
             if(event.target.value.length > 3) {
-                axios.get('http://dataservice.accuweather.com/locations/v1/cities/autocomplete/?apikey=' + apiKey + '&q=' +event.target.value)
+                axios.get('https://dataservice.accuweather.com/locations/v1/cities/autocomplete/?apikey=' + apiKey + '&q=' +event.target.value)
                 .then((response) => {
                     if(response.data.length > 0) {
                         let locationData: Location[]= response.data

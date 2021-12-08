@@ -54,7 +54,7 @@ export const Home = () => {
         if (cityKey !== "") requestkey = cityKey;
         if (callCityData) handleCityData(cityKey, cityName);
         //Get 5 day forecasts
-        axios.get('http://dataservice.accuweather.com/forecasts/v1/daily/5day/' + requestkey + '?apikey=' + apiKey + '&metric=true')
+        axios.get('https://dataservice.accuweather.com/forecasts/v1/daily/5day/' + requestkey + '?apikey=' + apiKey + '&metric=true')
             .then((response) => {
                 if (response.data) {
                     let dailyForcast: DailyForcast[] = response.data.DailyForecasts;
@@ -96,7 +96,7 @@ export const Home = () => {
         let requestkey = defaultCityKey;
         if (cityKey !== "") requestkey = cityKey;
         //Get City Data
-        axios.get('http://dataservice.accuweather.com/currentconditions/v1/' + requestkey + '?apikey=' + apiKey)
+        axios.get('https://dataservice.accuweather.com/currentconditions/v1/' + requestkey + '?apikey=' + apiKey)
             .then((response) => {
                 if(response.data) {
                     let isFavourite = checkIfCityIsInFavourites(requestkey);
