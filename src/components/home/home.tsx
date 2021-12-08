@@ -79,7 +79,6 @@ export const Home = () => {
     const removeFavouriteHandler = () => {
         if (city) {
             updateFavourite(false);
-            console.log(city.cityKey);
             dispatch(removeFavourite(city));
         }
     }
