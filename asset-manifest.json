@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/wheather-app/static/css/main.42b61455.chunk.css",
+    "main.js": "/wheather-app/static/js/main.8a62ab3c.chunk.js",
+    "main.js.map": "/wheather-app/static/js/main.8a62ab3c.chunk.js.map",
+    "runtime-main.js": "/wheather-app/static/js/runtime-main.d99f2e44.js",
+    "runtime-main.js.map": "/wheather-app/static/js/runtime-main.d99f2e44.js.map",
+    "static/css/2.207e99fc.chunk.css": "/wheather-app/static/css/2.207e99fc.chunk.css",
+    "static/js/2.992ed868.chunk.js": "/wheather-app/static/js/2.992ed868.chunk.js",
+    "static/js/2.992ed868.chunk.js.map": "/wheather-app/static/js/2.992ed868.chunk.js.map",
+    "static/js/3.cc91b465.chunk.js": "/wheather-app/static/js/3.cc91b465.chunk.js",
+    "static/js/3.cc91b465.chunk.js.map": "/wheather-app/static/js/3.cc91b465.chunk.js.map",
+    "index.html": "/wheather-app/index.html",
+    "static/css/2.207e99fc.chunk.css.map": "/wheather-app/static/css/2.207e99fc.chunk.css.map",
+    "static/css/main.42b61455.chunk.css.map": "/wheather-app/static/css/main.42b61455.chunk.css.map",
+    "static/js/2.992ed868.chunk.js.LICENSE.txt": "/wheather-app/static/js/2.992ed868.chunk.js.LICENSE.txt",
+    "static/media/city.61acb0f3.png": "/wheather-app/static/media/city.61acb0f3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d99f2e44.js",
+    "static/css/2.207e99fc.chunk.css",
+    "static/js/2.992ed868.chunk.js",
+    "static/css/main.42b61455.chunk.css",
+    "static/js/main.8a62ab3c.chunk.js"
+  ]
+}
